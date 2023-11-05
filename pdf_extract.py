@@ -1,9 +1,9 @@
-import filtz
+import fitz
 
 
 def extract_text_pdf(pdf_path):
     try:
-        pdf_doc = filtz.open(pdf_path)
+        pdf_doc = fitz.open(pdf_path)
         text =""
 
         for page_num in range(pdf_doc.page_count):

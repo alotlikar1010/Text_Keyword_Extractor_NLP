@@ -4,3 +4,8 @@ pytesseract
 PyMuPDF
 Flask
 spacy
+frontend
+tools
+yake
+
+
